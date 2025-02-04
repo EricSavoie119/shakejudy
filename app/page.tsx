@@ -11,12 +11,9 @@ export default function Page() {
         <div className="container flex h-14 items-center">
           <div className="mr-4 hidden md:flex">
             <Link className="mr-6 flex items-center space-x-2" href="/">
-              <span className="hidden font-bold sm:inline-block">Shake Judy</span>
+              <span className="hidden font-bold sm:inline-block pl-4">Shake Judy</span>
             </Link>
             <nav className="flex items-center space-x-6 text-sm font-medium">
-              <Link href="#about" className="transition-colors hover:text-foreground/80">
-                About
-              </Link>
               <Link href="#band" className="transition-colors hover:text-foreground/80">
                 Band
               </Link>
@@ -29,7 +26,7 @@ export default function Page() {
       </header>
 
       <main className="container px-4 md:px-6">
-        <section id="about" className="py-12 md:py-24 lg:py-32">
+        <section id="about" className="py-8 md:py-12">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -62,16 +59,16 @@ export default function Page() {
           </div>
         </section>
 
-        <section id="band" className="py-12 md:py-24 lg:py-32">
+        <section id="band" className="py-8 md:py-12">
           <div className="container px-4 md:px-6">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-12 text-center">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-center">
               Meet the Band
             </h2>
             <BandMembers />
           </div>
         </section>
 
-        <section id="contact" className="py-12 md:py-24 lg:py-32">
+        <section id="contact" className="py-8 md:py-12">
           <div className="container px-4 md:px-6">
             <div className="mx-auto max-w-2xl">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-12 text-center">

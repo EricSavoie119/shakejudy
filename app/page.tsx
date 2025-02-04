@@ -25,9 +25,9 @@ export default function Page() {
         </div>
       </header>
 
-      <main className="container px-4 md:px-6">
+      <main className="px-4 md:px-6">
         <section id="about" className="py-8 md:py-12">
-          <div className="container px-4 md:px-6">
+          <div className="container">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
@@ -60,7 +60,7 @@ export default function Page() {
         </section>
 
         <section id="band" className="py-8 md:py-12">
-          <div className="container px-4 md:px-6">
+          <div className="container">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-center">
               Meet the Band
             </h2>
@@ -69,7 +69,7 @@ export default function Page() {
         </section>
 
         <section id="contact" className="py-8 md:py-12">
-          <div className="container px-4 md:px-6">
+          <div className="container">
             <div className="mx-auto max-w-2xl">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-12 text-center">
                 Get in Touch

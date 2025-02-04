@@ -92,3 +92,20 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+.header {
+  padding: 1rem 1.5rem;
+  background: linear-gradient(to right, #1a1a1a, #2d2d2d);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background: linear-gradient(to right, #ffffff, #e0e0e0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 0.5px;
+}

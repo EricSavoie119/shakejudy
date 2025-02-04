@@ -25,42 +25,40 @@ export default function Page() {
         </div>
       </header>
 
-      <main className="px-4 md:px-6">
+      <main className="container mx-auto px-4 md:px-6">
         <section id="about" className="py-8 md:py-12">
-          <div className="container">
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-                  Shake Judy
-                </h1>
-                <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                  Bringing high-energy pop and hard rock covers to Southwest London. From classic anthems to modern
-                  hits, we deliver an electrifying live music experience that gets the crowd moving.
-                </p>
-              </div>
-              <div className="space-x-4">
-                <Link
-                  href="https://www.instagram.com/shake.judy?igsh=MWsyd3Q5aWhjcG9ocg%3D%3D&utm_source=qr"
-                  target="_blank"
-                >
-                  <Button variant="outline" size="icon">
-                    <Instagram className="h-4 w-4" />
-                    <span className="sr-only">Instagram</span>
-                  </Button>
-                </Link>
-                <Link href="mailto:ericsavoie119+shakejudy@gmail.com">
-                  <Button variant="outline" size="icon">
-                    <Mail className="h-4 w-4" />
-                    <span className="sr-only">Email</span>
-                  </Button>
-                </Link>
-              </div>
+          <div className="flex flex-col items-center justify-center space-y-4 text-center">
+            <div className="space-y-2">
+              <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
+                Shake Judy
+              </h1>
+              <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
+                Bringing high-energy pop and hard rock covers to Southwest London. From classic anthems to modern
+                hits, we deliver an electrifying live music experience that gets the crowd moving.
+              </p>
+            </div>
+            <div className="space-x-4">
+              <Link
+                href="https://www.instagram.com/shake.judy?igsh=MWsyd3Q5aWhjcG9ocg%3D%3D&utm_source=qr"
+                target="_blank"
+              >
+                <Button variant="outline" size="icon">
+                  <Instagram className="h-4 w-4" />
+                  <span className="sr-only">Instagram</span>
+                </Button>
+              </Link>
+              <Link href="mailto:ericsavoie119+shakejudy@gmail.com">
+                <Button variant="outline" size="icon">
+                  <Mail className="h-4 w-4" />
+                  <span className="sr-only">Email</span>
+                </Button>
+              </Link>
             </div>
           </div>
         </section>
 
         <section id="band" className="py-8 md:py-12">
-          <div className="container">
+          <div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-center">
               Meet the Band
             </h2>
@@ -69,13 +67,11 @@ export default function Page() {
         </section>
 
         <section id="contact" className="py-8 md:py-12">
-          <div className="container">
-            <div className="mx-auto max-w-2xl">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-12 text-center">
-                Get in Touch
-              </h2>
-              <ContactForm />
-            </div>
+          <div className="mx-auto max-w-2xl">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-12 text-center">
+              Get in Touch
+            </h2>
+            <ContactForm />
           </div>
         </section>
       </main>
